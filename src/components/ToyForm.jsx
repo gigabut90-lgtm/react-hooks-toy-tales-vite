@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ToyForm() {
+  const [name,setName] = useState("")
+  const [image,setImage] = useState("")
+  function handleSubmit(e){
+    e.preventdefault()
+    fetch
+
+  }
   return (
+
     <div className="container">
       <form className="add-toy-form">
         <h3>Create a toy!</h3>
